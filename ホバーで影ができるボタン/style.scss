@@ -1,0 +1,32 @@
+$cWhite: white;
+$cBlack: Black;
+
+#container {
+    text-align: center;
+
+}
+
+.btn {
+    color: $cBlack;
+    background-color: $cWhite;
+    border: 1px solid $cBlack;
+    padding: 10px 40px;
+    margin: 50px 0;
+    font-weight: 600;
+    transition: all 0.3s;
+    color: pointer;
+    
+    &.float {
+        &:hover{
+            box-shadow: 5px 5px 10px 0px $cBlack;
+        }
+    }
+    // &:hover {
+    //     color: $cWhite;
+    //     background-color: $cBlack;
+    
+    // }
+}
+
+
+
